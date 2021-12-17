@@ -1,0 +1,320 @@
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  font-size: 15px;
+  line-height: 21px;
+  color: $main;
+  display: flex;
+  flex-direction: column;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+  &--not {
+    padding: 0;
+  }
+}
+
+.title {
+  font-size: 24px;
+  line-height: 36px;
+  color: $main;
+  @extend %mont-800;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 36px;
+  color: $main;
+  @extend %mont-800;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  width: 130px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: $blue;
+  font-size: 16px;
+  line-height: 21px;
+  color: $white;
+  @extend %mont-400;
+  transition: all .3s;
+
+  &:hover {
+    background-color: $light-blue;
+  }
+}
+
+.breadcrumbs {
+  &__list {
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    position: relative;
+    margin-right: 15px;
+
+    &::after {
+      content: '>';
+      position: absolute;
+      top: 4px;
+      right: -12px;
+      @extend %mont-500;
+      font-size: 14px;
+      line-height: 16px;
+      color: $main;
+    }
+
+    &:last-child {
+      margin-right: 0;
+
+      .breadcrumbs__link {
+        color: $main;
+        text-decoration: none;
+      }
+
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  &__link {
+    @extend %mont-500;
+    font-size: 13px;
+    line-height: 16px;
+    color: $main;
+    transition: all .3s;
+    color: $blue;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.pagination {
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__link {
+    @extend %mont-400;
+    font-size: 16px;
+    line-height: 23px;
+    color: $chicago;
+    padding: 3px 8px;
+    border: 2px solid transparent;
+    display: block;
+    transition: all .3s;
+
+    &:hover {
+      border: 2px solid $chicago;
+    }
+
+    &--active {
+      border: 2px solid $hover;
+
+      .pagination__link {
+        @extend %mont-600;
+        color: $hover
+      }
+    }
+  }
+}
+
+.page-section {
+  &__inner {
+    display: flex;
+  }
+
+  &__aside {
+    min-width: 280px;
+    max-width: 280px;
+    padding: 25px 30px 0;
+    background-color: $white;
+  }
+
+  &__content {
+    width: 100%;
+    padding: 30px 55px 100px;
+    background-color: $bg;
+  }
+}
+
+.checkbox {
+  display: flex;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+  &__title {
+    font-size: 13px;
+    line-height: 16px;
+    color: $chicago;
+    @extend %mont-500;
+  }
+
+  &__input {
+    @extend %checkbox-hidden;
+
+    &:checked+.checkbox__icon::before {
+      content: '';
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #064781;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+  }
+
+  &__icon {
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border: 1px solid #808080;
+    margin-right: 11px;
+    position: relative;
+  }
+}
+
+.select-style {
+  pointer-events: none;
+}
+
+.apply-btn {
+  padding: 10px 35px;
+  border: none;
+  outline: none;
+  transition: all .3;
+  font-size: 16px;
+  line-height: 20px;
+  color: $white;
+  @extend %mont-400;
+  background-color: $chicago;
+
+  &:hover {
+    background-color: $light-blue;
+  }
+}
+
+
+.jq-selectbox {
+  pointer-events: auto;
+  border: 1px solid #808080;
+  width: 200px;
+  cursor: pointer;
+  background-color: $white;
+  color: $chicago;
+
+  &__select-text {
+    @extend %mont-600;
+    padding: 6px 25px 6px 10px;
+    color: $hover;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &__select-text.placeholder {
+    color: $chicago;
+    @extend %mont-400;
+  }
+
+  &.jqselect.dropdown.opened {
+    border-bottom: none;
+  }
+
+  &.changed {
+    border-color: $hover;
+  }
+
+  &.focused {
+    border-color: $hover;
+  }
+
+  &.focused .jq-selectbox__dropdown{
+    border-color: $hover;
+  }
+
+  &.jqselect.dropdown.opened .jq-selectbox__dropdown {
+    border-top: none;
+  }
+
+  &.jqselect.changed.dropdown.opened {
+    border-color: $hover;
+  }
+
+  &.jqselect.changed.dropdown.opened .jq-selectbox__dropdown {
+    border-color: $hover;
+  }
+
+  &.jqselect.dropdown.opened .jq-selectbox__trigger {
+    transform: rotate(180deg);
+  }
+
+  &__trigger {
+    width: 11px;
+    height: 6px;
+    background-image: url('../images/icons/arrow.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    transition: all .3s;
+  }
+
+  &__dropdown {
+    border: 1px solid #808080;
+    width: calc(100% + 2px) !important;
+    top: 30px;
+    left: -1px;
+    padding: 6px 10px;
+    background-color: $white;
+    margin-top: -2px;
+
+    ul {
+      @extend %mont-400;
+      font-size: 14px;
+      line-height: 17px;
+      overflow-x: auto;
+      padding-bottom: 10px;
+
+      li {
+        padding: 5px 0;
+        transition: all .3s;
+        color: $main;
+
+        &:first-child {
+          color: $chicago;
+        }
+
+        &:hover {
+          color: $hover;
+        }
+      }
+    }
+  }
+}

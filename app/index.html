@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ВИК</title>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.min.css?v=1">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="menu">
+      <div class="container">
+        <div class="menu__contacts" id="menu-top">
+          <div class="menu__contacts-inner">
+            <div class="menu__city">
+              <span class="menu__city-selected">г. Москва</span>
+            </div>
+            <a class="menu__tel" href="tel:+74957776767">+7 (495) 777-67-67</a>
+            <a class="menu__tel" href="tel:+74957776767">+7 (495) 777-67-67</a>
+          </div>
+
+          <div class="user-nav user-nav--active">
+            <a class="user-nav__favorite favorite" href="#">
+              <span class="favorite__icon"></span>
+              <span class="favorite__quantity">33</span>
+            </a>
+            <a class="user-nav__basket basket" href="#">
+              <span class="basket__icon"></span>
+              <span class="basket__quantity">12</span>
+            </a>
+            <div class="user-nav__enter enter">
+              <a class="enter__link" href="#">Вход</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu__inner">
+          <a class="logo" href="#">
+            <img src="images/decor/logo.svg" alt="логотип">
+          </a>
+          <div class="menu__contacts menu__contacts--mobile">
+            <div class="menu__city">
+              <span class="menu__city-selected">г. Москва</span>
+            </div>
+            <a class="menu__tel" href="tel:+74957776767">+7 (495) 777-67-67</a>
+            <a class="menu__tel" href="tel:+74957776767">+7 (495) 777-67-67</a>
+          </div>
+          <nav class="nav">
+            <button class="nav__btn">
+              <span></span>
+            </button>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="company.html">о компании</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="article.html">новости</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="shop.html">каталог</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">калькулятор</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="publications.html">публикации</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="press-centr.html">пресс-центр</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="contacts.html">контакты</a>
+              </li>
+              <div class="lang lang--mobile">
+                <button class="lang__btn lang__btn--active">ru</button>
+                <span>/</span>
+                <button class="lang__btn">en</button>
+              </div>
+            </ul>
+          </nav>
+
+          <form class="search-form" action="#" id="search">
+            <input class="search-input" type="text" placeholder="Поиск">
+          </form>
+
+          <div class="search">
+            <div class="search__btn-box">
+              <a class="search__btn" href="#search"></a>
+            </div>
+          </div>
+          <div class="lang lang-top">
+            <button class="lang__btn">ru</button>
+            <span>/</span>
+            <button class="lang__btn">en</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="main-slider__controll">
+        <div class="main-slider__controll-inner">
+          <div class="swiper-button-next main-slider__btn-next"></div>
+          <div class="swiper-button-prev main-slider__btn-prev"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-container main-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide main-slider__item">
+          <img class="main-slider__images" src="images/content/main-slider.jpg" alt="картинка">
+          <div class="main-slider__content">
+            <img class="main-slider__decor" src="images/decor/30.svg" alt="картинка">
+            <div class="main-slider__title-bg">
+              <h1 class="main-slider__title">
+                лидер российского рынка ветеринарной фармацевтики с 1990 года
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide main-slider__item">
+          <img class="main-slider__images" src="images/content/main-slider.jpg" alt="картинка">
+          <div class="main-slider__content">
+            <img class="main-slider__decor" src="images/decor/30.svg" alt="картинка">
+            <div class="main-slider__title-bg">
+              <h1 class="main-slider__title">
+                лидер российского рынка ветеринарной фармацевтики с 1990 года
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide main-slider__item">
+          <img class="main-slider__images" src="images/content/main-slider.jpg" alt="картинка">
+          <div class="main-slider__content">
+            <img class="main-slider__decor" src="images/decor/30.svg" alt="картинка">
+            <div class="main-slider__title-bg">
+              <h1 class="main-slider__title">
+                лидер российского рынка ветеринарной фармацевтики с 1990 года
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination main-slider__pagintation"></div>
+    </div>
+  </header>
+
+  <div class="baner">
+    <a class="baner__item" href="#">
+      <h4 class="baner__title">
+        Группе компании ВИК –
+        30 лет!
+      </h4>
+    </a>
+    <a class="baner__item" href="#">
+      <img class="baner__decor" src="images/decor/baner-decor.png" alt="картинка">
+      <div class="baner__text">
+        <h4 class="baner__title">
+          Х МЕЖДУНАРОДНЫЙ
+          ВЕТЕРИНАРНЫЙ КОНГРЕСС
+        </h4>
+        <small class="baner__subtitle">
+          «Единый мир - единое здоровье»
+        </small>
+      </div>
+    </a>
+    <a class="baner__item" href="wik.html">
+      <div class="baner__wiki-text">
+        <h4 class="baner__wiki-title"><span>ВИК</span>ИПЕДИЯ</h4>
+        <small class="baner__wiki-subtitle">СПРАВОЧНИК СПЕЦИАЛИСТА</small>
+      </div>
+    </a>
+  </div>
+
+  <section class="news">
+    <div class="container">
+      <h2 class="news__title title">Новости</h2>
+      <div class="news__inner news__inner-slider">
+        <a class="news__item" href="#">
+          <img class="news__images" src="images/content/news-1.jpg" alt="новости">
+          <div class="news__info">
+            <span class="news__date">20.12.2020</span>
+            <h4 class="news__item-title">
+              Группа компаний ВИК помогает студентам МВА расширить знания о профессии
+            </h4>
+          </div>
+        </a>
+        <a class="news__item" href="#">
+          <img class="news__images" src="images/content/news-2.jpg" alt="новости">
+          <div class="news__info">
+            <span class="news__date">20.12.2020</span>
+            <h4 class="news__item-title">
+              Ветеринарные врачи познакомились с новыми разработками ветеринарной медицины
+            </h4>
+          </div>
+        </a>
+        <a class="news__item" href="#">
+          <img class="news__images" src="images/content/news-3.jpg" alt="новости">
+          <div class="news__info">
+            <span class="news__date">20.12.2020</span>
+            <h4 class="news__item-title">
+              Новые ориентиры промышленного животноводства, стратегии развития в текущих условиях
+            </h4>
+          </div>
+        </a>
+        <a class="news__item" href="#">
+          <img class="news__images" src="images/content/news-4.jpg" alt="новости">
+          <div class="news__info">
+            <span class="news__date">20.12.2020</span>
+            <h4 class="news__item-title">
+              Группа компаний ВИК помогает студентам МВА расширить знания о профессии
+            </h4>
+          </div>
+        </a>
+      </div>
+      <a class="news__btn button" href="#">Подробнее</a>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h2 class="about__title title">О Компании</h2>
+      <div class="about__inner">
+        <div class="about__info">
+          <p class="about__text">
+            ГРУППА КОМПАНИЙ ВИК создана в 1990 году и на сегодняшний день занимает лидирующую позицию на российском
+            рынке
+            ветеринарной фармацевтики, а также является крупнейшим российским производителем ветеринарных препаратов.
+            За 30 лет успешной работы запущены 2 производственных комплекса, работают 3 аккредитованные
+            научно-исследовательские
+            лаборатории, налажена реализация продукции через 21 офис в центральных городах России, Беларуси и
+            Казахстана.
+          </p>
+          <a class="about__btn button" href="#">Подробнее</a>
+        </div>
+        <a class="about__popup" data-fancybox href="https://www.youtube.com/watch?v=CWlbjXwUMJI&ab_channel=HalseyVEVO">
+          <h4 class="about__popup-title">ГК ВИК СЕГОДНЯ</h4>
+          <img class="about__popup-link" src="images/icons/popup-icon.svg" alt="картинка">
+        </a>
+      </div>
+      <div class="about__advantage advantage">
+        <div class="advantage__item">
+          <div class="advantage__num-box">
+            <img class="advantage__icon" src="images/decor/advantage-1.svg" alt="иконка">
+            <span class="advantage__num">2</span>
+          </div>
+          <h4 class="advantage__title">
+            производственных
+            комплекса
+          </h4>
+        </div>
+        <div class="advantage__item">
+          <div class="advantage__num-box">
+            <img class="advantage__icon" src="images/decor/advantage-2.svg" alt="иконка">
+            <span class="advantage__num">3</span>
+          </div>
+          <h4 class="advantage__title">
+            аккредетированные
+            научно-исследовательские
+            лаборатории
+          </h4>
+        </div>
+        <div class="advantage__item">
+          <div class="advantage__num-box">
+            <img class="advantage__icon" src="images/decor/advantage-3.svg" alt="иконка">
+            <span class="advantage__num">7</span>
+          </div>
+          <h4 class="advantage__title">
+            региональных
+            распределительных
+            центров
+          </h4>
+        </div>
+        <div class="advantage__item">
+          <div class="advantage__num-box">
+            <img class="advantage__icon" src="images/decor/advantage-4.svg" alt="иконка">
+            <span class="advantage__num">21</span>
+          </div>
+          <h4 class="advantage__title">
+            офис в центральных
+            городах России, Беларуси
+            и Казахстана
+          </h4>
+        </div>
+        <div class="advantage__item">
+          <div class="advantage__num-box">
+            <img class="advantage__icon" src="images/decor/advantage-5.svg" alt="иконка">
+            <span class="advantage__num">40</span>
+          </div>
+          <h4 class="advantage__title">
+            страны продаж
+          </h4>
+        </div>
+        <div class="advantage__item">
+          <div class="advantage__num-box">
+            <img class="advantage__icon" src="images/decor/advantage-6.svg" alt="иконка">
+            <span class="advantage__num">2</span>
+          </div>
+          <h4 class="advantage__title">
+            млрд руб. составит объём
+            инвестиций в собственное
+            производство до 2022 г.
+          </h4>
+        </div>
+        <div class="advantage__item">
+          <div class="advantage__num-box">
+            <img class="advantage__icon" src="images/decor/advantage-7.svg" alt="иконка">
+            <span class="advantage__num">80</span>
+          </div>
+          <h4 class="advantage__title">
+            наград в области
+            разработки и производства
+            ветеринарных препаратов
+          </h4>
+        </div>
+        <div class="advantage__item">
+          <div class="advantage__num-box">
+            <img class="advantage__icon" src="images/decor/advantage-8.svg" alt="иконка">
+            <span class="advantage__num">10</span>
+          </div>
+          <h4 class="advantage__title">
+            продуктов компаний
+            выпускаются по патентам
+            и являются инновационными
+          </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="production">
+    <div class="container">
+      <h2 class="production__title title">Производство</h2>
+      <div class="production__tab tab">
+        <div class="tab__buttons production__tab-buttons">
+          <a class="tab__button production__tab-button tab__button--active" href="#belgorod">г. Белгород</a>
+          <a class="tab__button production__tab-button" href="#vitebsk">г. Витебск</a>
+        </div>
+        <div class="tab__content production__content tab__content--active" id="belgorod">
+          <div class="production__content-inner">
+            <div class="production__image">
+              <img class="production__img" src="images/content/realization.jpg" alt="картинка">
+            </div>
+            <p class="production__text">
+              Производственная площадка Группы компаний ВИК
+              в г. Белгород (НПФ ВИК) является центром научно-исследовательской деятельности и разработок компании, а
+              также основной площадкой для снабжения Центрального федерального округа, Евросоюза, Ближнего Востока и
+              стран Северной Африки.
+              Белгородская компания, как и все производственные площадки ВИК, сертифицирована согласно международным
+              стандартам GMP.
+              Сам производственный комплекс – это восемь тысяч квадратных метров современных корпусов, в которых
+              размещено передовое оборудование, внедрена чётко выверенная логистика, точный контроль каждого этапа
+              производства.
+            </p>
+          </div>
+          <p class="production__bottom-text">
+            НПФ ВИК сертификацирована в системе «Made in Russia». Компания удостоена статуса
+            «Добросовестный экспортер». Наличие такого знака свидетельствует о высочайшем качестве, безопасности и
+            экологичности продукции.
+          </p>
+          <a class="production__btn button" href="#">Подробнее</a>
+        </div>
+        <div class="tab__content production__content" id="vitebsk">
+          <div class="production__content-inner">
+            <div class="production__image">
+              <img class="production__img" src="images/content/realization.jpg" alt="картинка">
+            </div>
+            <p class="production__text">
+              Производственная площадка Группы компаний ВИК
+              в г. Белгород (НПФ ВИК) является центром научно-исследовательской деятельности и разработок компании, а
+              также основной площадкой для снабжения Центрального федерального округа, Евросоюза, Ближнего Востока и
+              стран Северной Африки.
+              Белгородская компания, как и все производственные площадки ВИК, сертифицирована согласно международным
+              стандартам GMP.
+              Сам производственный комплекс – это восемь тысяч квадратных метров современных корпусов, в которых
+              размещено передовое оборудование, внедрена чётко выверенная логистика, точный контроль каждого этапа
+              производства.
+            </p>
+          </div>
+          <p class="production__bottom-text">
+            НПФ ВИК сертификацирована в системе «Made in Russia». Компания удостоена статуса
+            «Добросовестный экспортер». Наличие такого знака свидетельствует о высочайшем качестве, безопасности и
+            экологичности продукции.
+          </p>
+          <a class="production__btn button" href="#">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="research">
+    <div class="container">
+      <h2 class="research__title title">Исследования и разработки</h2>
+      <div class="research__inner">
+        <div class="research__info">
+          <p class="research__text">
+            На сегодняшний день в ГК ВИК работают
+            3 аккредитованные научно-исследовательские лаборатории. Ветеринарные препараты, разработанные в этих
+            лабораториях, отвечают всем стандартам, и могут быть зарегистрированы в любой стране без дополнительных
+            исследований.
+          </p>
+          <img class="research__decor" src="images/decor/research.svg" alt="картинка">
+          <p class="research__text research__text--two">
+            «ВИК – здоровье животных» – единственная ветеринарная фармацевтическая компания в СНГ, получившая
+            европейский сертификат GMP-EU
+          </p>
+        </div>
+        <img class="research__images" src="images/content/research.jpg" alt="картинка">
+      </div>
+      <img class="research__decor research__decor--mobile" src="images/decor/research.svg" alt="картинка">
+      <p class="research__text research__text--two research__text--mobile">
+        «ВИК – здоровье животных» – единственная ветеринарная фармацевтическая компания в СНГ, получившая
+        европейский сертификат GMP-EU
+      </p>
+      <div class="research__items">
+        <div class="research__item">
+          <div class="research__num-box">
+            <img class="research__icon" src="images/decor/research-decor-1.svg" alt="иконка">
+            <span class="research__num">3</span>
+          </div>
+          <h4 class="research__item-title">
+            аккредитованные
+            научно-исследовательские
+            лаборатории
+          </h4>
+        </div>
+        <div class="research__item">
+          <div class="research__num-box">
+            <img class="research__icon" src="images/decor/research-decor-2.svg" alt="иконка">
+            <span class="research__num">10</span>
+          </div>
+          <h4 class="research__item-title">
+            продуктов разработанных
+            выпускаются по патентам
+            и являются инновационными
+          </h4>
+        </div>
+        <div class="research__item">
+          <div class="research__num-box">
+            <img class="research__icon" src="images/decor/research-decor-3.svg" alt="иконка">
+            <span class="research__num">80</span>
+          </div>
+          <h4 class="research__item-title">
+            наград в области разработки
+            и производства ветеринарных
+            препаратов
+          </h4>
+        </div>
+      </div>
+      <a class="research__btn button" href="#">Подробнее</a>
+    </div>
+  </section>
+
+  <section class="realization">
+    <div class="container">
+      <h2 class="realization__title title">Реализация</h2>
+      <div class="realization__tab tab">
+        <div class="tab__buttons realization__tab-buttons">
+          <a class="tab__button realization__tab-button tab__button--active" href="#realization-tab-1">ТОРГОВЫЙ ДОМ
+            ВИК</a>
+          <a class="tab__button realization__tab-button" href="#realization-tab-2">ВЕТМАРКЕТ</a>
+          <a class="tab__button realization__tab-button" href="#realization-tab-3">КЛИНКОСМИК</a>
+        </div>
+        <div class="tab__content realization__content tab__content--active" id="realization-tab-1">
+          <div class="realization__content-inner">
+            <p class="realization__text">
+              Крупнейшая ветеринарная компания в России и СНГ в сегменте сельскохозяйственных животных и птицы
+              Основное направление деятельности ООО «Торговый дом – ВИК», входящего в Группу компаний ВИК - комплексное
+              обслуживание животноводческих и птицеводческих хозяйств. На сегодняшний день ГК ВИК имеет многолетний опыт
+              в области исследований и производства различных ветеринарных препаратов. Постоянное изучение и анализ
+              ветеринарного рынка позволяет наиболее полно учитывать требования потребителей и совершенствовать работу
+              на рынке. «ТД – ВИК» реализует продукцию собственного производства Группы компаний, а также осуществляет
+              дистрибуцию лекарственных препаратов отечественного и импортного производства, дезинфектанты,
+              инструментария, лабораторного оборудования и спецодежды и других видов ветеринарных товаров.
+            </p>
+            <div class="realization__image">
+              <img src="images/content/research.jpg" alt="картинка">
+            </div>
+          </div>
+        </div>
+        <div class="tab__content realization__content" id="realization-tab-2">
+          <div class="realization__content-inner">
+            <p class="realization__text">
+              Крупнейшая ветеринарная компания в России и СНГ в сегменте сельскохозяйственных животных и птицы
+              Основное направление деятельности ООО «Торговый дом – ВИК», входящего в Группу компаний ВИК - комплексное
+              обслуживание животноводческих и птицеводческих хозяйств. На сегодняшний день ГК ВИК имеет многолетний опыт
+              в области исследований и производства различных ветеринарных препаратов. Постоянное изучение и анализ
+              ветеринарного рынка позволяет наиболее полно учитывать требования потребителей и совершенствовать работу
+              на рынке. «ТД – ВИК» реализует продукцию собственного производства Группы компаний, а также осуществляет
+              дистрибуцию лекарственных препаратов отечественного и импортного производства, дезинфектанты,
+              инструментария, лабораторного оборудования и спецодежды и других видов ветеринарных товаров.
+            </p>
+            <div class="realization__image">
+              <img src="images/content/research.jpg" alt="картинка">
+            </div>
+          </div>
+        </div>
+        <div class="tab__content realization__content" id="realization-tab-3">
+          <div class="realization__content-inner">
+            <p class="realization__text">
+              Крупнейшая ветеринарная компания в России и СНГ в сегменте сельскохозяйственных животных и птицы
+              Основное направление деятельности ООО «Торговый дом – ВИК», входящего в Группу компаний ВИК - комплексное
+              обслуживание животноводческих и птицеводческих хозяйств. На сегодняшний день ГК ВИК имеет многолетний опыт
+              в области исследований и производства различных ветеринарных препаратов. Постоянное изучение и анализ
+              ветеринарного рынка позволяет наиболее полно учитывать требования потребителей и совершенствовать работу
+              на рынке. «ТД – ВИК» реализует продукцию собственного производства Группы компаний, а также осуществляет
+              дистрибуцию лекарственных препаратов отечественного и импортного производства, дезинфектанты,
+              инструментария, лабораторного оборудования и спецодежды и других видов ветеринарных товаров.
+            </p>
+            <div class="realization__image">
+              <img src="images/content/research.jpg" alt="картинка">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="realization__btn button" href="#">Подробнее</a>
+      <div class="realization__items">
+        <a class="realization__item" href="#">
+          <img src="images/decor/realization1.svg" alt="логотип компании">
+        </a>
+        <a class="realization__item" href="#">
+          <img src="images/decor/realization2.svg" alt="логотип компании">
+        </a>
+        <a class="realization__item" href="#">
+          <img src="images/decor/realization3.svg" alt="логотип компании">
+        </a>
+        <a class="realization__item" href="#">
+          <img src="images/decor/realization4.svg" alt="логотип компании">
+        </a>
+        <a class="realization__item" href="#">
+          <img src="images/decor/realization5.svg" alt="логотип компании">
+        </a>
+        <a class="realization__item" href="#">
+          <img src="images/decor/realization6.svg" alt="логотип компании">
+        </a>
+        <a class="realization__item" href="#">
+          <img src="images/decor/realization7.svg" alt="логотип компании">
+        </a>
+        <a class="realization__item" href="#">
+          <img src="images/decor/realization8.svg" alt="логотип компании">
+        </a>
+        <a class="realization__item" href="#">
+          <img src="images/decor/realization9.svg" alt="логотип компании">
+        </a>
+        <a class="realization__item" href="#">
+          <img src="images/decor/realization10.svg" alt="логотип компании">
+        </a>
+        <a class="realization__item" href="#">
+          <img src="images/decor/realization11.svg" alt="логотип компании">
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="catalog">
+    <div class="container">
+      <h2 class="catalog__title title">Каталог продукции</h2>
+      <div class="catalog__inner">
+        <div class="catalog__item">
+          <div class="catalog__item-static">
+            <img class="catalog__icon" src="images/decor/catalog-1.svg" alt="иконка">
+            <h4 class="catalog__item-title">Свиноводство</h4>
+          </div>
+          <div class="catalog__item-hover">
+            <ul class="catalog__list">
+              <li class="catalog__list-item">антибактериальные</li>
+              <li class="catalog__list-item">гормональные</li>
+              <li class="catalog__list-item">противопаразитарные</li>
+              <li class="catalog__list-item">железосодержащие</li>
+              <li class="catalog__list-item">нестероидные </li>
+              <li class="catalog__list-item">противовоспалительные</li>
+              <li class="catalog__list-item">витамины и кормовые</li>
+              <li class="catalog__list-item">добавки</li>
+            </ul>
+          </div>
+        </div>
+        <div class="catalog__item">
+          <div class="catalog__item-static">
+            <img class="catalog__icon" src="images/decor/catalog-2.svg" alt="иконка">
+            <h4 class="catalog__item-title">КРС</h4>
+          </div>
+          <div class="catalog__item-hover">
+            <ul class="catalog__list">
+              <li class="catalog__list-item">антибактериальные</li>
+              <li class="catalog__list-item">гормональные</li>
+              <li class="catalog__list-item">противопаразитарные</li>
+              <li class="catalog__list-item">железосодержащие</li>
+              <li class="catalog__list-item">нестероидные </li>
+              <li class="catalog__list-item">противовоспалительные</li>
+              <li class="catalog__list-item">витамины и кормовые</li>
+              <li class="catalog__list-item">добавки</li>
+            </ul>
+          </div>
+        </div>
+        <div class="catalog__item">
+          <div class="catalog__item-static">
+            <img class="catalog__icon" src="images/decor/catalog-3.svg" alt="иконка">
+            <h4 class="catalog__item-title">Птицеводство</h4>
+          </div>
+          <div class="catalog__item-hover">
+            <ul class="catalog__list">
+              <li class="catalog__list-item">антибактериальные</li>
+              <li class="catalog__list-item">гормональные</li>
+              <li class="catalog__list-item">противопаразитарные</li>
+              <li class="catalog__list-item">железосодержащие</li>
+              <li class="catalog__list-item">нестероидные </li>
+              <li class="catalog__list-item">противовоспалительные</li>
+              <li class="catalog__list-item">витамины и кормовые</li>
+              <li class="catalog__list-item">добавки</li>
+            </ul>
+          </div>
+        </div>
+        <div class="catalog__item">
+          <div class="catalog__item-static">
+            <img class="catalog__icon" src="images/decor/catalog-4.svg" alt="иконка">
+            <h4 class="catalog__item-title">МДЖ</h4>
+          </div>
+          <div class="catalog__item-hover">
+            <ul class="catalog__list">
+              <li class="catalog__list-item">антибактериальные</li>
+              <li class="catalog__list-item">гормональные</li>
+              <li class="catalog__list-item">противопаразитарные</li>
+              <li class="catalog__list-item">железосодержащие</li>
+              <li class="catalog__list-item">нестероидные </li>
+              <li class="catalog__list-item">противовоспалительные</li>
+              <li class="catalog__list-item">витамины и кормовые</li>
+              <li class="catalog__list-item">добавки</li>
+            </ul>
+          </div>
+        </div>
+        <div class="catalog__item">
+          <div class="catalog__item-static">
+            <img class="catalog__icon" src="images/decor/catalog-5.svg" alt="иконка">
+            <h4 class="catalog__item-title">Антисептические
+              средства для людей</h4>
+          </div>
+          <div class="catalog__item-hover">
+            <ul class="catalog__list">
+              <li class="catalog__list-item">антибактериальные</li>
+              <li class="catalog__list-item">гормональные</li>
+              <li class="catalog__list-item">противопаразитарные</li>
+              <li class="catalog__list-item">железосодержащие</li>
+              <li class="catalog__list-item">нестероидные </li>
+              <li class="catalog__list-item">противовоспалительные</li>
+              <li class="catalog__list-item">витамины и кормовые</li>
+              <li class="catalog__list-item">добавки</li>
+            </ul>
+          </div>
+        </div>
+        <div class="catalog__item">
+          <div class="catalog__item-static">
+            <img class="catalog__icon" src="images/decor/catalog-6.svg" alt="иконка">
+            <h4 class="catalog__item-title">Парфюмерно–
+              косметическа продукция
+              для людей</h4>
+          </div>
+          <div class="catalog__item-hover">
+            <ul class="catalog__list">
+              <li class="catalog__list-item">антибактериальные</li>
+              <li class="catalog__list-item">гормональные</li>
+              <li class="catalog__list-item">противопаразитарные</li>
+              <li class="catalog__list-item">железосодержащие</li>
+              <li class="catalog__list-item">нестероидные </li>
+              <li class="catalog__list-item">противовоспалительные</li>
+              <li class="catalog__list-item">витамины и кормовые</li>
+              <li class="catalog__list-item">добавки</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="logistics">
+    <div class="container">
+      <h2 class="logistics__title title">Логистика</h2>
+      <div class="logistics__inner">
+        <div class="logistics__text">
+          <p>
+            ГК ВИК - единственная ветеринарная компания в СНГ прошедшая сертификацию ISO 9001 по менеджменту качества
+            дистрибуции и ISO 28004 по системе безопасности в области соблюдения холодовой цепи, транспортировки и
+            хранения ветеринарных препаратов.
+            Аудит, проведенный в феврале 2016 года Британским институтом стандартов (British Standards Institution,
+            BSI),
+            подтвердил полное соответствие ТОРГОВОГО ДОМА ВИК требованиям следующих стандартов:
+            ISO 9001:2015 «системы менеджмента качества в области дистрибуции ветеринарных препаратов, вакцин и кормовых
+            добавок»;
+            ISO 28004:2006 «системы менеджмента безопасности цепи поставок в области соблюдения холодовой цепи
+            транспортировки и хранения биопрепаратов, диагностикумов
+            и ветеринарных препаратов».
+          </p>
+        </div>
+        <div class="logistics__image">
+          <img class="logistics__img" src="images/content/logistics.jpg" alt="картинка">
+          <div class="logistics__icon-box">
+            <img class="logistics__icon" src="images/decor/logistics-1.png" alt="икнока">
+            <img class="logistics__icon" src="images/decor/logistics-2.png" alt="икнока">
+            <img class="logistics__icon" src="images/decor/logistics-3.svg" alt="икнока">
+          </div>
+        </div>
+      </div>
+      <div class="logistics__bottom">
+        <div class="logistics__bottom-item">
+          <img class="logistics__icon" src="images/decor/logistics-4.svg" alt="иконка">
+          <h4 class="logistics__item-title">
+            Соответствие отраслевым
+            требованиям и стандарту GDP
+          </h4>
+        </div>
+        <div class="logistics__bottom-item">
+          <img class="logistics__icon" src="images/decor/logistics-5.svg" alt="иконка">
+          <h4 class="logistics__item-title">
+            Одновременное хранение более
+            9000 паллет, высота хранения товара до 12 м
+          </h4>
+        </div>
+        <div class="logistics__bottom-item">
+          <img class="logistics__icon" src="images/decor/logistics-6.svg" alt="иконка">
+          <h4 class="logistics__item-title">
+            Соблюдение всех стандартов
+            холодовой цепи – от производителя
+            до потребителя
+          </h4>
+        </div>
+        <div class="logistics__bottom-item">
+          <img class="logistics__icon" src="images/decor/logistics-7.svg" alt="иконка">
+          <h4 class="logistics__item-title">
+            Полная прослеживаемость:
+            операции под управлением WMS
+          </h4>
+        </div>
+      </div>
+      <a class="logistics__btn button" href="#">Подробнее</a>
+    </div>
+  </section>
+
+
+  <section class="export">
+    <div class="container">
+      <h2 class="export__title title">
+        Экспорт
+      </h2>
+      <h4 class="export__subtitle">
+        На сегодняшний день в ГК ВИК экспортирует
+        свою продукцию в 40 страны
+      </h4>
+      <a class="export__btn button" href="#">Подробнее</a>
+    </div>
+  </section>
+
+
+  <section class="activity">
+    <div class="container">
+      <h2 class="activity__title title">
+        Издательская и конгрессно-выставочная
+        деятельность
+      </h2>
+      <div class="activity__inner">
+        <div class="activity__item activity__item--bg">
+          <div class="swiper-container activity__slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="activity__slider-item" src="images/content/activity-slider.png" alt="журнал">
+              </div>
+              <div class="swiper-slide">
+                <img class="activity__slider-item" src="images/content/activity-slider.png" alt="журнал">
+              </div>
+              <div class="swiper-slide">
+                <img class="activity__slider-item" src="images/content/activity-slider.png" alt="журнал">
+              </div>
+              <div class="swiper-slide">
+                <img class="activity__slider-item" src="images/content/activity-slider.png" alt="журнал">
+              </div>
+              <div class="swiper-slide">
+                <img class="activity__slider-item" src="images/content/activity-slider.png" alt="журнал">
+              </div>
+              <div class="swiper-slide">
+                <img class="activity__slider-item" src="images/content/activity-slider.png" alt="журнал">
+              </div>
+            </div>
+            <div class="swiper-button-prev activity__slider-prev">
+            </div>
+            <div class="swiper-button-next activity__slider-next">
+            </div>
+          </div>
+        </div>
+        <div class="activity__item">
+          <p class="activity__text">
+            Издательская деятельность Группы компаний ВИК представлена журналом "Аграрная наука".
+            Ежемесячный научно-теоретический и производственный журнал "Аграрная наука" – международное издание
+            Межгосударственного совета по аграрной науке и информации стран СНГ.
+            Основан в 1992 г.
+          </p>
+          <a class="activity__btn button" href="#">Подробнее</a>
+        </div>
+      </div>
+      <div class="activity__bottom-inner">
+        <div class="activity__item">
+          <p class="activity__text">
+            Издательская деятельность Группы компаний ВИК представлена журналом "Аграрная наука".
+            Ежемесячный научно-теоретический и производственный журнал "Аграрная наука" – международное издание
+            Межгосударственного совета по аграрной науке и информации стран СНГ.
+            Основан в 1992 г.
+          </p>
+          <a class="activity__btn button" href="#">Подробнее</a>
+        </div>
+        <div class="activity__item activity__item--img">
+          <img class="activity__images" src="images/content/activity.jpg" alt="картинка">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="brands">
+    <div class="container">
+      <h2 class="brands__title title">Наши бренды</h2>
+      <div class="brands__inner">
+        <a class="brands__item" href="#">
+          <img src="images/decor/brand-1.svg" alt="логотип">
+        </a>
+        <a class="brands__item" href="#">
+          <img src="images/decor/brand-2.png" alt="логотип">
+        </a>
+        <a class="brands__item" href="#">
+          <img src="images/decor/brand-3.png" alt="логотип">
+        </a>
+        <a class="brands__item" href="#">
+          <img src="images/decor/brand-4.png" alt="логотип">
+        </a>
+        <a class="brands__item" href="#">
+          <img src="images/decor/brand-5.png" alt="логотип">
+        </a>
+        <a class="brands__item" href="#">
+          <img src="images/decor/brand-6.png" alt="логотип">
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="charity">
+    <div class="container">
+      <div class="charity__inner">
+        <div class="charity__item">
+          <h2 class="charity__title title">
+            Благотворительность
+          </h2>
+          <p class="charity__text">
+            Деятельность Группы компаний ВИК является социально ответственным бизнесом. Работа по оказанию
+            благотворительной помощи ведется постоянно, обеспечивая поддержку нескольких учреждений, нуждающихся в
+            помощи.
+          </p>
+          <a class="charity__btn button" href="#">Подробнее</a>
+        </div>
+        <div class="charity__item">
+          <img class="charity__images" src="images/content/charity.jpg" alt="картинка">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__item">
+          <img src="images/decor/30.svg" alt="30">
+        </div>
+        <div class="footer__item">
+          <a class="footer__link" href="#">Контакты</a>
+          <a class="footer__link" href="#">Карта сайта</a>
+        </div>
+        <form class="footer__form" action="#">
+          <h4 class="footer__item-title">Подписаться на новости</h4>
+          <input class="footer__form-input" type="email" placeholder="Введите почту" required>
+          <button class="footer__form-btn button" type="submit">Подписаться</button>
+        </form>
+        <div class="footer__item">
+          <h4 class="footer__item-title">
+            Присоединяйтесь к нам!
+          </h4>
+          <ul class="footer__social">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12.897" height="25.79" viewBox="0 0 12.897 25.79">
+                  <path id="Контур_1670" data-name="Контур 1670"
+                    d="M904.423,11792.516h2.355v-4.1a30.569,30.569,0,0,0-3.43-.181c-3.4,0-5.72,2.135-5.72,6.059v3.612h-3.747v4.584h3.747v11.535h4.592v-11.534h3.6l.57-4.584h-4.166v-3.158c0-1.325.358-2.232,2.2-2.232Zm0,0"
+                    transform="translate(-893.881 -11788.234)" fill="#ddd" />
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24.897" height="29.493" viewBox="0 0 24.897 29.493">
+                  <g id="Сгруппировать_324" data-name="Сгруппировать 324" transform="translate(-935.592 -11785.118)">
+                    <path id="Контур_1674" data-name="Контур 1674"
+                      d="M960.059,11800.05a3.148,3.148,0,0,0-2.691-2.447,126.254,126.254,0,0,0-18.647,0,3.149,3.149,0,0,0-2.691,2.447,39.942,39.942,0,0,0,0,11.771,3.144,3.144,0,0,0,2.69,2.445,126.241,126.241,0,0,0,18.646,0,3.147,3.147,0,0,0,2.692-2.445,40.265,40.265,0,0,0,.005-11.771Zm-17.364,1.462h-1.8v9.575h-1.674v-9.575h-1.769v-1.568H942.7Zm4.545,9.575h-1.506v-.905a2.412,2.412,0,0,1-1.718,1.02.923.923,0,0,1-.97-.617,4.284,4.284,0,0,1-.132-1.235v-6.564h1.5v6.113a4.911,4.911,0,0,0,.013.584c.036.233.15.353.352.353.3,0,.618-.232.951-.7v-6.346h1.506Zm5.716-2.492a6.638,6.638,0,0,1-.152,1.672,1.192,1.192,0,0,1-1.2.935,2.044,2.044,0,0,1-1.554-.919v.8h-1.5v-11.144h1.5v3.64a2.038,2.038,0,0,1,1.554-.9,1.19,1.19,0,0,1,1.2.938,6.382,6.382,0,0,1,.152,1.669Zm5.678-1.385h-3.008v1.473c0,.767.251,1.151.769,1.151a.646.646,0,0,0,.671-.6,9.737,9.737,0,0,0,.034-1.02h1.534v.219c0,.486-.017.819-.032.971a2.115,2.115,0,0,1-.351.9,2.077,2.077,0,0,1-1.82.9,2.151,2.151,0,0,1-1.82-.85,3.218,3.218,0,0,1-.484-1.953v-2.908a3.238,3.238,0,0,1,.465-1.956,2.142,2.142,0,0,1,1.8-.853,2.089,2.089,0,0,1,1.774.853,3.258,3.258,0,0,1,.467,1.956v1.72Zm0,0"
+                      fill="#ddd" />
+                    <path id="Контур_1675" data-name="Контур 1675"
+                      d="M956.38,11804.037q-.754,0-.754,1.151v.769h1.5v-.769q0-1.151-.75-1.151Zm0,0" fill="#ddd" />
+                    <path id="Контур_1676" data-name="Контур 1676"
+                      d="M950.8,11804.037a1.08,1.08,0,0,0-.751.365v5.062a1.076,1.076,0,0,0,.751.37c.433,0,.654-.37.654-1.121v-3.544c0-.748-.221-1.132-.654-1.132Zm0,0"
+                      fill="#ddd" />
+                    <path id="Контур_1677" data-name="Контур 1677"
+                      d="M951.638,11796.493a2.443,2.443,0,0,0,1.736-1.029v.914H954.9v-8.392h-1.522v6.415q-.506.712-.959.712c-.2,0-.324-.121-.358-.358a3.8,3.8,0,0,1-.017-.59v-6.179h-1.517v6.636a4.238,4.238,0,0,0,.135,1.248.932.932,0,0,0,.98.623Zm0,0"
+                      fill="#ddd" />
+                    <path id="Контур_1678" data-name="Контур 1678"
+                      d="M941.051,11791.817v4.561h1.687v-4.561l2.028-6.7h-1.7l-1.152,4.422-1.2-4.422H938.94c.354,1.043.725,2.093,1.08,3.138a27.417,27.417,0,0,1,1.031,3.562Zm0,0"
+                      fill="#ddd" />
+                    <path id="Контур_1679" data-name="Контур 1679"
+                      d="M947.026,11796.493a2.072,2.072,0,0,0,1.774-.858,3.284,3.284,0,0,0,.472-1.974v-2.938a3.292,3.292,0,0,0-.472-1.977,2.251,2.251,0,0,0-3.543,0,3.254,3.254,0,0,0-.477,1.977v2.938a3.246,3.246,0,0,0,.477,1.974,2.068,2.068,0,0,0,1.769.858Zm-.726-6.075c0-.777.237-1.164.726-1.164s.726.387.726,1.164v3.53c0,.775-.235,1.165-.726,1.165s-.726-.39-.726-1.165Zm0,0"
+                      fill="#ddd" />
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26.199" height="26.205" viewBox="0 0 26.199 26.205">
+                  <g id="Сгруппировать_323" data-name="Сгруппировать 323" transform="translate(-986.279 -11788.017)">
+                    <g id="Сгруппировать_322" data-name="Сгруппировать 322">
+                      <path id="Контур_1671" data-name="Контур 1671"
+                        d="M1012.412,11795.721a9.583,9.583,0,0,0-.609-3.179,6.706,6.706,0,0,0-3.835-3.834,9.6,9.6,0,0,0-3.178-.609c-1.4-.066-1.848-.082-5.406-.082s-4,.016-5.4.077a9.589,9.589,0,0,0-3.179.609,6.707,6.707,0,0,0-3.834,3.834,9.612,9.612,0,0,0-.609,3.179c-.067,1.4-.082,1.849-.082,5.406s.015,4,.077,5.4a9.573,9.573,0,0,0,.609,3.179,6.706,6.706,0,0,0,3.834,3.835,9.619,9.619,0,0,0,3.179.608c1.4.062,1.843.077,5.4.077s4-.016,5.4-.077a9.581,9.581,0,0,0,3.179-.608,6.706,6.706,0,0,0,3.835-3.835,9.626,9.626,0,0,0,.609-3.179c.061-1.4.076-1.843.076-5.4s-.005-4-.066-5.4Zm-2.36,10.7a7.18,7.18,0,0,1-.45,2.432,4.351,4.351,0,0,1-2.488,2.488,7.211,7.211,0,0,1-2.432.45c-1.382.062-1.8.077-5.293.077s-3.916-.016-5.293-.077a7.181,7.181,0,0,1-2.432-.45,4.042,4.042,0,0,1-1.505-.978,4.089,4.089,0,0,1-.978-1.5,7.214,7.214,0,0,1-.45-2.433c-.061-1.382-.077-1.8-.077-5.293s.016-3.916.077-5.293a7.165,7.165,0,0,1,.45-2.431,3.972,3.972,0,0,1,.984-1.506,4.058,4.058,0,0,1,1.5-.978,7.254,7.254,0,0,1,2.432-.451c1.382-.061,1.8-.076,5.293-.076s3.916.016,5.293.076a7.225,7.225,0,0,1,2.432.451,4.318,4.318,0,0,1,2.483,2.483,7.2,7.2,0,0,1,.45,2.431c.061,1.382.077,1.8.077,5.293s-.016,3.906-.077,5.288Zm0,0"
+                        fill="#ddd" />
+                    </g>
+                    <path id="Контур_1672" data-name="Контур 1672"
+                      d="M999.384,11794.39a6.732,6.732,0,1,0,6.731,6.732,6.734,6.734,0,0,0-6.731-6.732Zm0,11.1a4.367,4.367,0,1,1,4.366-4.366,4.367,4.367,0,0,1-4.366,4.366Zm0,0"
+                      fill="#ddd" />
+                    <path id="Контур_1673" data-name="Контур 1673"
+                      d="M1007.953,11794.124a1.572,1.572,0,1,1-1.571-1.571,1.572,1.572,0,0,1,1.571,1.571Zm0,0"
+                      fill="#ddd" />
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        © 1990–2020 ООО «Группа компаний ВИК»
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ВИК</title>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.min.css?v=1">
+</head>
+
+<body>
+
+  <div class="menu main-menu">
+    <div class="container">
+      <div class="menu__contacts">
+       
+        <div class="menu__contacts-inner">
+          <div class="menu__city">
+            <span class="menu__city-selected">г. Москва</span>
+          </div>
+          <a class="menu__tel" href="tel:+74957776767">+7 (495) 777-67-67</a>
+          <a class="menu__tel" href="tel:+74957776767">+7 (495) 777-67-67</a>
+        </div>
+
+        <div class="user-nav user-nav--active">
+          <a class="user-nav__favorite favorite" href="#">
+            <span class="favorite__icon"></span>
+            <span class="favorite__quantity">23</span>
+          </a>
+          <a class="user-nav__basket basket" href="#">
+            <span class="basket__icon"></span>
+            <span class="basket__quantity">12</span>
+          </a>
+          <div class="user-nav__enter enter">
+            <a class="enter__link" href="#">Вход</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu__inner">
+        <a class="logo" href="#">
+          <img src="images/decor/logo.svg" alt="логотип">
+        </a>
+        <div class="menu__contacts menu__contacts--mobile">
+          <div class="menu__city">
+            <span class="menu__city-selected">г. Москва</span>
+          </div>
+          <a class="menu__tel" href="tel:+74957776767">+7 (495) 777-67-67</a>
+          <a class="menu__tel" href="tel:+74957776767">+7 (495) 777-67-67</a>
+        </div>
+        <nav class="nav">
+          <button class="nav__btn">
+            <span></span>
+          </button>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="company.html">о компании</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="article.html">новости</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="shop.html">каталог</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">калькулятор</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="publications.html">публикации</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="press-centr.html">пресс-центр</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="contacts.html">контакты</a>
+            </li>
+            <div class="lang lang--mobile">
+              <button class="lang__btn lang__btn--active">ru</button>
+              <span>/</span>
+              <button class="lang__btn">en</button>
+            </div>
+          </ul>
+        </nav>
+        <form class="search-form" action="#" id="search">
+          <input class="search-input" type="text" placeholder="Поиск">
+        </form>
+        
+        <div class="search">
+          <div class="search__btn-box">
+            <a class="search__btn" href="#search"></a>
+          </div>
+        </div>
+        <div class="lang lang-top">
+          <button class="lang__btn">ru</button>
+          <span>/</span>
+          <button class="lang__btn">en</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="main">
+    <section class="ordering">
+      <div class="container">
+        <div class="ordering__inner">
+          <div class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="#">Главная</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="#">Корзина</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <span class="breadcrumbs__link">Оформление заказа</span>
+              </li>
+            </ul>
+          </div>
+          <h1>Оформление заказа</h1>
+          <div class="ordering__content-inner">
+            <div class="ordering__content">
+              <div class="ordering__breadcrumbs">
+                <div class="ordering__breadcrumbs-item ordering__breadcrumbs-item--one">Контактные данные</div>
+                <div class="ordering__breadcrumbs-item ordering__breadcrumbs-item--two">
+                  Доставка</div>
+                <div
+                  class="ordering__breadcrumbs-item ordering__breadcrumbs-item--three ordering__breadcrumbs-item--active">
+                  Оплата</div>
+              </div>
+              <h4 class="ordering__subtitle">Способ оплаты</h4>
+                <label class="ordering__label checkbox">
+                  <input class="checkbox__input" type="radio" name='pay'>
+                  <span class="checkbox__icon"></span>
+                  <h6 class="checkbox__title ordering__label-title">Онлайн-оплата</h6>
+                </label>
+                <h6 class="ordering__label-subtitle">Visa, MasterCard, Мир</h6>
+                <label class="ordering__label checkbox">
+                  <input class="checkbox__input" type="radio" name='pay'>
+                  <span class="checkbox__icon"></span>
+                  <h6 class="checkbox__title ordering__label-title">Оплата наличкой</h6>
+                </label>
+                <h6 class="ordering__label-subtitle">При получение заказа</h6>
+                <label class="ordering__label checkbox">
+                  <input class="checkbox__input" type="radio" name='pay'>
+                  <span class="checkbox__icon"></span>
+                  <h6 class="checkbox__title ordering__label-title">Безналичная оплата для юр. лиц</h6>
+                </label>
+                <h6 class="ordering__label-subtitle">Высталяется счет на оплату</h6>
+                <button class="ordering__btn">Далее</button>
+            </div>
+            <div class=" ordering-sum">
+              <h4 class="ordering-sum__title">
+                В корзине 3 товара на сумму:
+              </h4>
+              <span class="ordering-sum__price">55800 руб.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__item">
+          <img src="images/decor/30.svg" alt="30">
+        </div>
+        <div class="footer__item">
+          <a class="footer__link" href="#">Контакты</a>
+          <a class="footer__link" href="#">Карта сайта</a>
+        </div>
+        <form class="footer__form" action="#">
+          <h4 class="footer__item-title">Подписаться на новости</h4>
+          <input class="footer__form-input" type="email" placeholder="Введите почту" required>
+          <button class="footer__form-btn button" type="submit">Подписаться</button>
+        </form>
+        <div class="footer__item">
+          <h4 class="footer__item-title">
+            Присоединяйтесь к нам!
+          </h4>
+          <ul class="footer__social">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12.897" height="25.79" viewBox="0 0 12.897 25.79">
+                  <path id="Контур_1670" data-name="Контур 1670"
+                    d="M904.423,11792.516h2.355v-4.1a30.569,30.569,0,0,0-3.43-.181c-3.4,0-5.72,2.135-5.72,6.059v3.612h-3.747v4.584h3.747v11.535h4.592v-11.534h3.6l.57-4.584h-4.166v-3.158c0-1.325.358-2.232,2.2-2.232Zm0,0"
+                    transform="translate(-893.881 -11788.234)" fill="#ddd" />
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24.897" height="29.493" viewBox="0 0 24.897 29.493">
+                  <g id="Сгруппировать_324" data-name="Сгруппировать 324" transform="translate(-935.592 -11785.118)">
+                    <path id="Контур_1674" data-name="Контур 1674"
+                      d="M960.059,11800.05a3.148,3.148,0,0,0-2.691-2.447,126.254,126.254,0,0,0-18.647,0,3.149,3.149,0,0,0-2.691,2.447,39.942,39.942,0,0,0,0,11.771,3.144,3.144,0,0,0,2.69,2.445,126.241,126.241,0,0,0,18.646,0,3.147,3.147,0,0,0,2.692-2.445,40.265,40.265,0,0,0,.005-11.771Zm-17.364,1.462h-1.8v9.575h-1.674v-9.575h-1.769v-1.568H942.7Zm4.545,9.575h-1.506v-.905a2.412,2.412,0,0,1-1.718,1.02.923.923,0,0,1-.97-.617,4.284,4.284,0,0,1-.132-1.235v-6.564h1.5v6.113a4.911,4.911,0,0,0,.013.584c.036.233.15.353.352.353.3,0,.618-.232.951-.7v-6.346h1.506Zm5.716-2.492a6.638,6.638,0,0,1-.152,1.672,1.192,1.192,0,0,1-1.2.935,2.044,2.044,0,0,1-1.554-.919v.8h-1.5v-11.144h1.5v3.64a2.038,2.038,0,0,1,1.554-.9,1.19,1.19,0,0,1,1.2.938,6.382,6.382,0,0,1,.152,1.669Zm5.678-1.385h-3.008v1.473c0,.767.251,1.151.769,1.151a.646.646,0,0,0,.671-.6,9.737,9.737,0,0,0,.034-1.02h1.534v.219c0,.486-.017.819-.032.971a2.115,2.115,0,0,1-.351.9,2.077,2.077,0,0,1-1.82.9,2.151,2.151,0,0,1-1.82-.85,3.218,3.218,0,0,1-.484-1.953v-2.908a3.238,3.238,0,0,1,.465-1.956,2.142,2.142,0,0,1,1.8-.853,2.089,2.089,0,0,1,1.774.853,3.258,3.258,0,0,1,.467,1.956v1.72Zm0,0"
+                      fill="#ddd" />
+                    <path id="Контур_1675" data-name="Контур 1675"
+                      d="M956.38,11804.037q-.754,0-.754,1.151v.769h1.5v-.769q0-1.151-.75-1.151Zm0,0" fill="#ddd" />
+                    <path id="Контур_1676" data-name="Контур 1676"
+                      d="M950.8,11804.037a1.08,1.08,0,0,0-.751.365v5.062a1.076,1.076,0,0,0,.751.37c.433,0,.654-.37.654-1.121v-3.544c0-.748-.221-1.132-.654-1.132Zm0,0"
+                      fill="#ddd" />
+                    <path id="Контур_1677" data-name="Контур 1677"
+                      d="M951.638,11796.493a2.443,2.443,0,0,0,1.736-1.029v.914H954.9v-8.392h-1.522v6.415q-.506.712-.959.712c-.2,0-.324-.121-.358-.358a3.8,3.8,0,0,1-.017-.59v-6.179h-1.517v6.636a4.238,4.238,0,0,0,.135,1.248.932.932,0,0,0,.98.623Zm0,0"
+                      fill="#ddd" />
+                    <path id="Контур_1678" data-name="Контур 1678"
+                      d="M941.051,11791.817v4.561h1.687v-4.561l2.028-6.7h-1.7l-1.152,4.422-1.2-4.422H938.94c.354,1.043.725,2.093,1.08,3.138a27.417,27.417,0,0,1,1.031,3.562Zm0,0"
+                      fill="#ddd" />
+                    <path id="Контур_1679" data-name="Контур 1679"
+                      d="M947.026,11796.493a2.072,2.072,0,0,0,1.774-.858,3.284,3.284,0,0,0,.472-1.974v-2.938a3.292,3.292,0,0,0-.472-1.977,2.251,2.251,0,0,0-3.543,0,3.254,3.254,0,0,0-.477,1.977v2.938a3.246,3.246,0,0,0,.477,1.974,2.068,2.068,0,0,0,1.769.858Zm-.726-6.075c0-.777.237-1.164.726-1.164s.726.387.726,1.164v3.53c0,.775-.235,1.165-.726,1.165s-.726-.39-.726-1.165Zm0,0"
+                      fill="#ddd" />
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26.199" height="26.205" viewBox="0 0 26.199 26.205">
+                  <g id="Сгруппировать_323" data-name="Сгруппировать 323" transform="translate(-986.279 -11788.017)">
+                    <g id="Сгруппировать_322" data-name="Сгруппировать 322">
+                      <path id="Контур_1671" data-name="Контур 1671"
+                        d="M1012.412,11795.721a9.583,9.583,0,0,0-.609-3.179,6.706,6.706,0,0,0-3.835-3.834,9.6,9.6,0,0,0-3.178-.609c-1.4-.066-1.848-.082-5.406-.082s-4,.016-5.4.077a9.589,9.589,0,0,0-3.179.609,6.707,6.707,0,0,0-3.834,3.834,9.612,9.612,0,0,0-.609,3.179c-.067,1.4-.082,1.849-.082,5.406s.015,4,.077,5.4a9.573,9.573,0,0,0,.609,3.179,6.706,6.706,0,0,0,3.834,3.835,9.619,9.619,0,0,0,3.179.608c1.4.062,1.843.077,5.4.077s4-.016,5.4-.077a9.581,9.581,0,0,0,3.179-.608,6.706,6.706,0,0,0,3.835-3.835,9.626,9.626,0,0,0,.609-3.179c.061-1.4.076-1.843.076-5.4s-.005-4-.066-5.4Zm-2.36,10.7a7.18,7.18,0,0,1-.45,2.432,4.351,4.351,0,0,1-2.488,2.488,7.211,7.211,0,0,1-2.432.45c-1.382.062-1.8.077-5.293.077s-3.916-.016-5.293-.077a7.181,7.181,0,0,1-2.432-.45,4.042,4.042,0,0,1-1.505-.978,4.089,4.089,0,0,1-.978-1.5,7.214,7.214,0,0,1-.45-2.433c-.061-1.382-.077-1.8-.077-5.293s.016-3.916.077-5.293a7.165,7.165,0,0,1,.45-2.431,3.972,3.972,0,0,1,.984-1.506,4.058,4.058,0,0,1,1.5-.978,7.254,7.254,0,0,1,2.432-.451c1.382-.061,1.8-.076,5.293-.076s3.916.016,5.293.076a7.225,7.225,0,0,1,2.432.451,4.318,4.318,0,0,1,2.483,2.483,7.2,7.2,0,0,1,.45,2.431c.061,1.382.077,1.8.077,5.293s-.016,3.906-.077,5.288Zm0,0"
+                        fill="#ddd" />
+                    </g>
+                    <path id="Контур_1672" data-name="Контур 1672"
+                      d="M999.384,11794.39a6.732,6.732,0,1,0,6.731,6.732,6.734,6.734,0,0,0-6.731-6.732Zm0,11.1a4.367,4.367,0,1,1,4.366-4.366,4.367,4.367,0,0,1-4.366,4.366Zm0,0"
+                      fill="#ddd" />
+                    <path id="Контур_1673" data-name="Контур 1673"
+                      d="M1007.953,11794.124a1.572,1.572,0,1,1-1.571-1.571,1.572,1.572,0,0,1,1.571,1.571Zm0,0"
+                      fill="#ddd" />
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        © 1990–2020 ООО «Группа компаний ВИК»
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

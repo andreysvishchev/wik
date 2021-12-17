@@ -1,0 +1,70 @@
+%mont-800 {
+  font-family: 'Montserrat-ExtraBold';
+  font-weight: 800;
+}
+
+%mont-700 {
+  font-family: 'Montserrat-Bold';
+  font-weight: 700;
+}
+
+
+%mont-600 {
+  font-family: 'Montserrat-SemiBold';
+  font-weight: 600;
+}
+
+
+%mont-500 {
+  font-family: 'Montserrat-Medium';
+  font-weight: 500;
+}
+
+
+%mont-400 {
+  font-family: 'Montserrat-Regular';
+  font-weight: 400;
+}
+
+%muller-500 {
+  font-family: 'MullerMediumItalic';
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+%muse-700 {
+  font-family: 'MuseoSansCyrl_2';
+  font-weight: 700;
+}
+
+%rubik-600 {
+  font-family: 'Rubik-SemiBold';
+  font-weight: 600;
+}
+
+%checkbox-hidden {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+$black: #1D1D1B;
+$main: #3C3C3B;
+$gray: #6F6F6E;
+$white: #fff;
+$chicago: #575756;
+$bg: #EFEEEE;
+$blue: #0D4880;
+$light-blue: #4C82C3;
+$ocean: #E7EFF4;
+$hover: #192A67;
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
